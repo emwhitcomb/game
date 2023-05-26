@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock-Paper-Scissors Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lacquer&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">     
+        <script src="play.js" defer></script>
+    </head>
+    <body>
+        <div id="invite">
+            <p>Perhaps a game of Rock, Paper, Scissors?</p>
+            <p>Choose your weapon!</p>
+        </div>
+        
+        <div class="btn-container">
+            <button id="rock"><img src="images/rock.svg" alt="Rock"></button>
+            <button id="paper"><img src="images/paper.svg" alt="Paper"></button>
+            <button id="scissors"><img src="images/scissors.svg" alt="Scissors"></button>
+        </div>
+
+        <p>1<sup>st</sup> player to reach 5 points wins!</p>
+
+        <div class="score-container">
+            <div id="your-score">
+                <p>You</p>
+                <p id="p-score">0</p>
+            </div>
+            <div id="my-score">
+                <p>Me</p>
+                <p id="c-score">0</p>
+            </div>
+        </div>
+        
+        <div class="message-container">
+            <div id="result-message"> </div>
+            <div id="end-message"></div>
+        </div>
+
+        <button id="play-again">Play Again</button>
+
+    </body>
+</html>
